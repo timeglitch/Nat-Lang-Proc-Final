@@ -1,0 +1,41 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+.github/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore data and output files
+*.log
+*.out
+*.tmp
+*.pkl
+
+# Ignore poki repo artifacts
+poki/images/
+poki/collections/*.yaml
+
+# Ignore generated files
+*.bak
+*.swp
+
+# Ignore notebook outputs
+*.nb.html
+
+# Ignore archive and export outputs
+poki/utils/archive-new-lipu-tenpo-issue/
+poki/utils/export-articles-to-lipu-tenpo/
