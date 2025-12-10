@@ -1,5 +1,5 @@
 S -> Interjection | VocativeS | Sentence | YNAnswer
-VocativeS -> NP o | NP o , Sentence | NP o Pred | o Pred | Conditional o Pred
+VocativeS -> NP o | NP o ',' Sentence | NP o Pred | o Pred | Conditional o Pred
 YNAnswer -> V | V ala
 Sentence -> SubjPred | Conditional SubjPred | taso SubjPred
 Conditional -> SubjPred la | Context la | NP la
@@ -13,8 +13,8 @@ NMod -> N Modifier | N N | N N Modifier
 Modifier -> Mod | Mod Modifier
 Pred -> VP | VP li Pred
 VP -> IntransVP | TransVP | VP PrepPh
-IntransVP -> Verb | lon NP | tawa NP | Modal lon NP | Modal tawa NP | Modifier |
-NP TransVP -> Verb DO | Modal Verb DO
+IntransVP -> Verb | lon NP | tawa NP | Modal lon NP | Modal tawa NP | Modifier | NP 
+TransVP -> Verb DO | Modal Verb DO
 DO -> e NP | e NP DO
 Verb -> V | Modal V | V Mod | YnV | Modal YnV | YnV Mod
 YnV -> V ala V
