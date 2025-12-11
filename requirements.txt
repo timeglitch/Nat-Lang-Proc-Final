@@ -10,6 +10,8 @@ debugpy==1.8.17
 decorator==5.2.1
 executing==2.2.1
 fonttools==4.61.0
+gensim==4.4.0
+importlib-metadata==3.10.1
 ipykernel==7.1.0
 ipython==9.7.0
 ipython_pygments_lexers==1.1.1
@@ -31,6 +33,7 @@ numpy==2.3.5
 packaging==25.0
 parso==0.8.5
 pathspec==0.12.1
+pcfg==0.1.5
 pillow==12.0.0
 platformdirs==4.5.0
 prompt_toolkit==3.0.52
@@ -41,7 +44,9 @@ pyparsing==3.2.5
 python-dateutil==2.9.0.post0
 pyzmq==27.1.0
 regex==2025.11.3
+scipy==1.16.3
 six==1.17.0
+smart_open==7.5.0
 soupsieve==2.8
 stack-data==0.6.3
 strip-markdown==1.3
@@ -52,3 +57,5 @@ traitlets==5.14.3
 types-tabulate==0.9.0.20241207
 typing_extensions==4.15.0
 wcwidth==0.2.14
+wrapt==2.0.1
+zipp==3.23.0
